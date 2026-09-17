@@ -30,10 +30,9 @@ tube it would crush it. The TPU does the conforming so the PETG does not have to
 
 Built in a day for Nazm Anwr, who plays flute for the Bangladeshi band
 [Kaaktaal](https://samiulmakes.com/projects/flute-mic-clamps/), because he performs with
-thirteen flutes and swaps between them mid-set. On the original build the screws and nuts
-were printed too: no hardware run, nothing metal to lose in a green room, and a thumb
-screw big enough to turn by hand between songs. **Those fasteners are not in this repo
-yet** — see [Fasteners](#fasteners) below.
+thirteen flutes and swaps between them mid-set. The screws are printed too: no hardware
+run, nothing metal to lose in a green room, and a thumb screw big enough to turn by hand
+between songs.
 
 Full write-up, with photos of the whole set:
 **<https://samiulmakes.com/projects/flute-mic-clamps/>**
@@ -67,7 +66,7 @@ Which is the reason the source file is here and not just the STLs.
 | Part | Material |
 | --- | --- |
 | Clamp shells | PETG |
-| Screws and nuts | PETG |
+| Thumb screws | PETG |
 | Spacers | TPU |
 
 <!-- TODO (Samiul): layer height, walls, infill, TPU shore hardness, whether the screws
@@ -76,16 +75,32 @@ Which is the reason the source file is here and not just the STLs.
 
 ## Fasteners
 
-The clamp closes with printed screws and nuts. **Their STLs are not here yet.** The
-geometry is in the Fusion file, so for now either export them from `cad/` or close the
-clamp with M3 hardware of your own.
+The clamp closes with printed thumb screws, in three shank lengths:
+
+| Part | Shank |
+| --- | --- |
+| `screw-6mm.stl` | 6 mm |
+| `screw-8mm.stl` | 8 mm |
+| `screw-10mm.stl` | 10 mm |
+
+All three share the same head: a 20 mm disc, 5 mm thick, with knurl lobes standing out to
+25 mm so it can be turned with cold fingers. The thread is a printed one, roughly 10 mm
+across, not an M-series profile — these mate with the clamps here and with nothing else.
+
+Longer shanks are for the bigger bores, where the split has further to close. If you are
+unsure, print the 8 mm first.
+
+<!-- TODO (Samiul): nuts. The clamp closes screw-into-nut, but only the screws came
+     across. Export the nut from cad/screws-v5.f3d. -->
 
 ## Files
 
-`cad/flute-adapter-v19.f3d` — the parametric Fusion 360 source, and the file you want if
-your flute is not on the list.
+`cad/flute-adapter-v19.f3d` — the parametric Fusion 360 source for the clamps and
+spacers, and the file you want if your flute is not on the list.
 
-`stl/` — 15 parts, ready to print:
+`cad/screws-v5.f3d` — the Fusion source for the thumb screws.
+
+`stl/` — 18 parts, ready to print:
 
 | Clamp | Spacers |
 | --- | --- |
@@ -94,6 +109,9 @@ your flute is not on the list.
 | `clamp-28mm.stl` | `spacer-28-to-24.5mm.stl`, `spacer-28-to-26.5mm.stl` |
 | `clamp-30mm.stl` | `spacer-30-to-27.5mm.stl` |
 | `clamp-35mm.stl` | `spacer-35-to-30mm.stl`, `spacer-35-to-33mm.stl` |
+
+Plus three thumb screws — `screw-6mm.stl`, `screw-8mm.stl`, `screw-10mm.stl` — which fit
+every clamp. See [Fasteners](#fasteners).
 
 Every spacer is 18 mm tall, so it sits fully inside the clamp it belongs to. A spacer only
 fits its own clamp; the outer profile changes with the bore.
