@@ -15,7 +15,7 @@ instrument for the mic to hold. These parts sit between the two.
 The clamp is in two layers, which is the whole idea:
 
 - a **rigid PETG split ring** that carries the standard B-6 clip and provides the clamping
-  force, closed with printed screws and nuts
+  force, closed with a printed thumb screw that threads straight into the ring
 - a **flexible TPU spacer** that takes up the difference between the clamp bore and your
   actual tube, and grips without marking the instrument
 
@@ -87,11 +87,11 @@ All three share the same head: a 20 mm disc, 5 mm thick, with knurl lobes standi
 25 mm so it can be turned with cold fingers. The thread is a printed one, roughly 10 mm
 across, not an M-series profile — these mate with the clamps here and with nothing else.
 
+There is no nut. The thread is cut into the clamp itself, so the screw is the only
+fastener you print.
+
 Longer shanks are for the bigger bores, where the split has further to close. If you are
 unsure, print the 8 mm first.
-
-<!-- TODO (Samiul): nuts. The clamp closes screw-into-nut, but only the screws came
-     across. Export the nut from cad/screws-v5.f3d. -->
 
 ## Files
 
