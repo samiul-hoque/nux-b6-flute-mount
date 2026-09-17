@@ -12,3 +12,6 @@ desktop.ini
 *.gcode
 *.3mf
 *.gcode.3mf
+
+# Drop folder: local staging only, never published.
+_incoming/

@@ -20,9 +20,10 @@ tube it would crush it. The TPU does the conforming so the PETG does not have to
 
 Built in a day for Nazm Anwr, who plays flute for the Bangladeshi band
 [Kaaktaal](https://samiulmakes.com/projects/flute-mic-clamps/), because he performs with
-thirteen flutes and swaps between them mid-set. Everything here, including the fasteners,
-is printed: no hardware run, nothing metal to lose in a green room, and a thumb screw big
-enough to turn by hand between songs.
+thirteen flutes and swaps between them mid-set. On the original build the screws and nuts
+were printed too: no hardware run, nothing metal to lose in a green room, and a thumb
+screw big enough to turn by hand between songs. **Those fasteners are not in this repo
+yet** — see [Fasteners](#fasteners) below.
 
 Full write-up, with photos of the whole set:
 **<https://samiulmakes.com/projects/flute-mic-clamps/>**
@@ -63,10 +64,29 @@ Which is the reason the source file is here and not just the STLs.
      need a particular orientation. Not filled in because guessing print settings for
      someone else's printer is worse than saying nothing. -->
 
+## Fasteners
+
+The clamp closes with printed screws and nuts. **Their STLs are not here yet.** The
+geometry is in the Fusion file, so for now either export them from `cad/` or close the
+clamp with M3 hardware of your own.
+
 ## Files
 
-- `cad/` — the parametric source. This is the useful one if your flute is not on the list.
-- `stl/` — ready to print, at the sizes in the table above.
+`cad/flute-adapter-v19.f3d` — the parametric Fusion 360 source, and the file you want if
+your flute is not on the list.
+
+`stl/` — 15 parts, ready to print:
+
+| Clamp | Spacers |
+| --- | --- |
+| `clamp-22mm.stl` | `spacer-22-to-15mm.stl`, `spacer-22-to-16mm.stl`, `spacer-22-to-20mm.stl` |
+| `clamp-24mm.stl` | `spacer-24-to-22mm.stl`, `spacer-24-to-22.5mm.stl` |
+| `clamp-28mm.stl` | `spacer-28-to-24.5mm.stl`, `spacer-28-to-26.5mm.stl` |
+| `clamp-30mm.stl` | `spacer-30-to-27.5mm.stl` |
+| `clamp-35mm.stl` | `spacer-35-to-30mm.stl`, `spacer-35-to-33mm.stl` |
+
+Every spacer is 18 mm tall, so it sits fully inside the clamp it belongs to. A spacer only
+fits its own clamp; the outer profile changes with the bore.
 
 ## Licence
 
