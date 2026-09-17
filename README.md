@@ -82,15 +82,21 @@ Which is the reason the source file is here and not just the STLs.
 
 ## Printing
 
-| Part | Material |
-| --- | --- |
-| Clamp shells | PETG |
-| Thumb screws | PETG |
-| Spacers | TPU |
+| Part | Material | Layer height | Walls |
+| --- | --- | --- | --- |
+| Clamp shells | PETG | 0.2 mm | 4 |
+| Thumb screws | PETG | 0.2 mm | 4 |
+| Spacers | TPU | 0.2 mm | — |
 
-<!-- TODO (Samiul): layer height, walls, infill, TPU shore hardness, whether the screws
-     need a particular orientation. Not filled in because guessing print settings for
-     someone else's printer is worse than saying nothing. -->
+Four walls on the PETG is the one setting worth keeping. The clamp is a split ring that
+gets tightened onto an instrument, so the load runs straight through the wall either side
+of the screw; thin walls there are where it would fail. The originals have been through a
+live set and are still in use on these settings.
+
+Everything else is whatever your printer likes. Print the screws standing on their heads,
+threads upward, so the thread does not need support.
+
+<!-- TODO (Samiul): infill and TPU shore hardness still not recorded. -->
 
 ## Fasteners
 
@@ -137,7 +143,17 @@ fits its own clamp; the outer profile changes with the bore.
 
 ## Licence
 
-<!-- TODO: pending Samiul's decision. -->
+[Creative Commons Attribution 4.0 International](LICENSE) (CC BY 4.0).
+
+Use these however you like — print them, sell the prints, modify the CAD, put the
+modified version out yourself — as long as you credit me. Something along these lines is
+enough:
+
+> Flute mic clamps for the NUX B-6 by [Samiul Hoque](https://samiulmakes.com), licensed
+> CC BY 4.0. <https://github.com/samiul-hoque/nux-b6-flute-mount>
+
+If you remix them, say what you changed, so nobody chasing a bad fit ends up at my door
+over someone else's edit.
 
 ## In use
 
