@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fusion 360 local caches and backups
+*.f3d.lock
+*.bak
+*.f3z.bak
+
+# Slicer output: project files and gcode are printer-specific, not source
+*.gcode
+*.3mf
+*.gcode.3mf
