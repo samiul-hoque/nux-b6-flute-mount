@@ -3,6 +3,11 @@
 3D printed clamps that mount a **NUX B-6** or **B-6 Pro** wireless microphone onto a
 flute.
 
+![Thirteen flutes with clamps fitted, alongside the NUX B-6 case and transmitter](img/full-set.jpg)
+
+*The set this was built for: thirteen flutes in bamboo, aluminium, copper, brass and
+resin, each with a clamp fitted, and the B-6 kit bottom right.*
+
 The B-6 is sold for saxophone. It expects to clamp onto a bell: a rigid flared metal mouth
 of one known size. A flute is a straight tube, and if you play one there is nothing on the
 instrument for the mic to hold. These parts sit between the two.
@@ -13,6 +18,11 @@ The clamp is in two layers, which is the whole idea:
   force, closed with printed screws and nuts
 - a **flexible TPU spacer** that takes up the difference between the clamp bore and your
   actual tube, and grips without marking the instrument
+
+| | |
+| --- | --- |
+| ![The printed clamp on its own, on a workbench beside an aluminium flute and callipers](img/fit-07.jpg) | ![Close view of the clamp holding the NUX mic clip with the TPU spacer visible inside the bore](img/mic-mount-detail.jpg) |
+| The rigid part on its own: split ring, mic boss underneath, printed thumb screw. | Assembled. The pale ring inside the bore is the TPU spacer; the boss takes the B-6 clip. |
 
 Keeping those separate is what makes one clamp cover several flutes. A rigid clamp
 tightened straight onto a bamboo flute would slip or dent it, and onto a thin aluminium
@@ -91,6 +101,13 @@ fits its own clamp; the outer profile changes with the bore.
 ## Licence
 
 <!-- TODO: pending Samiul's decision. -->
+
+## In use
+
+![A small aluminium flute held in playing position with the clamp, transmitter and gooseneck mic mounted](img/mic-in-playing-position.jpg)
+
+*The mic head sitting where it needs to sit, on a flute that had nowhere to mount
+anything. These held up through a live set and are still in use.*
 
 ## Credits
 
