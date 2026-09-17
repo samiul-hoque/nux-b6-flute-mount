@@ -1,7 +1,7 @@
 # NUX B-6 flute mount
 
 3D printed clamps that mount a **NUX B-6** or **B-6 Pro** wireless microphone onto a
-flute.
+flute or tin whistle.
 
 ![Thirteen flutes with clamps fitted, alongside the NUX B-6 case and transmitter](img/full-set.jpg)
 
@@ -52,6 +52,25 @@ that brings it down to your diameter.
 
 Measure your flute with callipers at the point you want the mic to sit, which is usually
 just below the embouchure hole and clear of the finger holes.
+
+## Instruments these have been fitted to
+
+The set these were built for is mostly handmade bamboo, which has no model number. The
+shop-bought instruments in it do:
+
+| Instrument | Material |
+| --- | --- |
+| Tony Dixon DX207, key of A | Aluminium |
+| Tony Dixon DX207, key of G | Aluminium |
+| Tony Dixon TB014 tenor flute | Polymer |
+| Tony Dixon DX001 soprano whistle | Polymer |
+| Generation whistle, key of Eb | Brass |
+| Clarke whistle, key of C | Tin |
+
+If you play one of these, a clamp and spacer from this repo has been fitted to that exact
+instrument. **Measure yours before printing anyway.** The pairings were recorded per flute
+during the fitting session, not per model, so there is no "a DX207 takes 22 over 20" list
+to give you — and tube stock changes between production runs.
 
 ## If your flute is between sizes
 
